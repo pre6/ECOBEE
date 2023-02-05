@@ -1,6 +1,8 @@
 # How Much Does the Furnace Impact the Gas Bill
 
-I am recent graduate and am currently living at my parents house. In an attempt to understand how much my actions (ie. increasing the temperature) will contribute to the gas bill, I have analysed data available to me through my ECOBEE thermostat. 
+I am recent graduate and am currently living at my parents house. In an attempt to understand how much my actions (ie. increasing the temperature) will contribute to the gas bill, I have analysed data available to me through my ECOBEE thermostat.
+
+## This is what  I found:
 
 
 
