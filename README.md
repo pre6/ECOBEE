@@ -15,7 +15,21 @@ This is my code:
 
 ``` SQL
 
-SELECT Enridge_Bill.Start_Range, Enridge_Bill.End_Range,Enridge_Bill.Amount, subq.count_furnace, subq.count_days_with_furnace, subq1.days_in_range, subq1.Minimum minimum_temp_for_range,
+SELECT 
+
+Enridge_Bill.Start_Range, 
+
+Enridge_Bill.End_Range,
+
+Enridge_Bill.Amount, 
+
+subq.count_furnace, 
+
+subq.count_days_with_furnace, 
+
+subq1.days_in_range, 
+
+subq1.Minimum minimum_temp_for_range,
 
 Enridge_Bill.Amount/subq1.days_in_range amount_per_day,
 
@@ -83,6 +97,10 @@ WHERE Date BETWEEN '2022-11-02' AND '2022-12-02'
 ) AS subq1
 
 ON Enridge_Bill.Start_Range = subq1.Start_Range
+
+
+
+
 
 
 
