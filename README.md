@@ -2,7 +2,9 @@
 
 This is my code:
 
-```SELECT 'SUM' Date, COUNT(Date)
+``` SQL
+
+//SELECT 'SUM' Date, COUNT(Date)
 FROM Thermostat
 WHERE [System Mode] = 'heatStage1On'
 AND Date BETWEEN '2022-06-23' AND '2022-09-01'
@@ -28,4 +30,5 @@ UNION ALL
 SELECT 'SUM' Date, COUNT(Date)
 FROM Thermostat
 WHERE [System Mode] = 'heatStage1On'
-AND Date BETWEEN '2022-11-02' AND '2022-12-02' ```
+AND Date BETWEEN '2022-11-02' AND '2022-12-02' 
+```
