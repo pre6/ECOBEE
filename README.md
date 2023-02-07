@@ -3,7 +3,7 @@ test test etst
 
 ## This is what  I found:
 
-![image](https://user-images.githubusercontent.com/47339289/217299234-aab32539-dff5-4117-9d65-31449ff77081.png| width=100)
+![image](https://user-images.githubusercontent.com/47339289/217299234-aab32539-dff5-4117-9d65-31449ff77081.png)
 
 
 
