@@ -17,13 +17,15 @@ Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode |
 |	2022-01-01 |	00:15:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.5 |	39.0 
 |	2022-01-01 |	00:20:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.5 |	39.0 
 
-5 rows × 39 columns
+5 rows × 10 columns
 
 
 
 - This is a graph of the average temperature per day for the whole year:
 
 ![image](https://user-images.githubusercontent.com/47339289/217299234-aab32539-dff5-4117-9d65-31449ff77081.png)
+
+- There are no breaks in the data from June 29th 2022 to December 18 2022 therefore we will only be focusing on this range of data
 
 
 ## This is what  I found:
