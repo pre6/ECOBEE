@@ -10,7 +10,7 @@ test test etst
 - Here is the first 5 rows of the data
 
 |Date| Time|System Setting | System Mode|Calendar Event|Program Mode|Cool Set Temp (C)|Heat Set Temp (C)|
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+--- | --- | --- | --- |--- |--- |--- 
 
        'Current Temp (C)', 'Current Humidity (%RH)', 'Outdoor Temp (C)',
        'Wind Speed (km/h)', 'Cool Stage 1 (sec)', 'Heat Stage 1 (sec)',
