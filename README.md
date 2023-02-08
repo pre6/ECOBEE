@@ -9,7 +9,7 @@ test test etst
 - This is from the Ecobee Thermostat from January 1st to December 30th
 - Here is the first 5 rows of the data
 
-Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode | Cool Set Temp (C) |	Heat Set Temp (C) |Current Temp (C) |Current Humidity
+Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode | Cool Set Temp (C) |	Heat Set Temp (C) |Current Temp (C) |Current Humidity (%RH)
 |--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |
 |	2022-01-01 |	00:00:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.8 |	39.0 
 |	2022-01-01 |	00:05:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.7 |	39.0
