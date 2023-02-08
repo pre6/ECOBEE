@@ -9,6 +9,8 @@ test test etst
 - This is from the Ecobee Thermostat from January 1st to December 30th
 - Here is the first 5 rows of the data
 
+|Date| Time|System Setting | System Mode|Calendar Event|Program Mode|Cool Set Temp (C)|Heat Set Temp (C)|
+
 
 
 Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
