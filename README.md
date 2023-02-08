@@ -9,20 +9,15 @@ test test etst
 - This is from the Ecobee Thermostat from January 1st to December 30th
 - Here is the first 5 rows of the data
 
-Date | Time | System Setting | System Mode | Calendar Event | Program Mode | Cool Set Temp (C) | Heat Set Temp (C)
---- | --- | --- | --- |--- |--- |--- 
+Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode | Cool Set Temp (C) |	Heat Set Temp (C) |Current Temp (C) |Current Humidity (%RH)
+|--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |
+|	2022-01-01 |	00:00:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.8 |	39.0 
+|	2022-01-01 |	00:05:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.7 |	39.0
+|	2022-01-01 |	00:10:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.6 |	39.0 
+|	2022-01-01 |	00:15:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.5 |	39.0 
+|	2022-01-01 |	00:20:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.5 |	39.0 
 
-       'Current Temp (C)', 'Current Humidity (%RH)', 'Outdoor Temp (C)',
-       'Wind Speed (km/h)', 'Cool Stage 1 (sec)', 'Heat Stage 1 (sec)',
-       'Fan (sec)', 'DM Offset', 'Thermostat Temperature (C)',
-       'Thermostat Humidity (%RH)', 'Thermostat Motion',
-       'Thermostat AirQualityAccuracy', 'Thermostat AirQuality',
-       'Thermostat VOCppm', 'Thermostat CO2ppm', 'Thermostat AirPressure',
-       'Gym (C)', 'Gym2', 'tempOffice (C)', 'tempOffice2', 'tempLoft (C)',
-       'tempLoft2', 'tempMainBedroom (C)', 'tempMainBedroom2',
-       'tempLivingRoom (C)', 'tempLivingRoom2', 'Back window (contact)',
-       'Main Bedroom window (contact)', 'Living Room window (contact)',
-       'Office window (contact)', 'Small Bedroom window (contact)'
+5 rows × 39 columns
 
 
 
