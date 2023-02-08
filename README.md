@@ -41,4 +41,18 @@ Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode |
 |2022-11-02	|2022-12-02	|164.99	|27.9027	|224|
 
 
+- The average spent on gas between these 4 ranges is $3.45/day. 
+- Table of vales (queries found here)
+- Here is a graph of the price and number of times the furnace is on
 
+
+## 3. When will I break even with my thermostat??
+math math
+table 
+table
+## 4. When will I have to adjust the temperature to save 10%???
+
+
+math math 
+table 
+table
