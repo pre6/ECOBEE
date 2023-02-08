@@ -21,13 +21,6 @@ Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode |
 
 
 
-
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
-
-
-
 - This is a graph of the average temperature per day for the whole year:
 
 ![image](https://user-images.githubusercontent.com/47339289/217299234-aab32539-dff5-4117-9d65-31449ff77081.png)
