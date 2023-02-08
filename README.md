@@ -10,6 +10,20 @@ test test etst
 - Here is the first 5 rows of the data
 
 |Date| Time|System Setting | System Mode|Calendar Event|Program Mode|Cool Set Temp (C)|Heat Set Temp (C)|
+--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
+
+       'Current Temp (C)', 'Current Humidity (%RH)', 'Outdoor Temp (C)',
+       'Wind Speed (km/h)', 'Cool Stage 1 (sec)', 'Heat Stage 1 (sec)',
+       'Fan (sec)', 'DM Offset', 'Thermostat Temperature (C)',
+       'Thermostat Humidity (%RH)', 'Thermostat Motion',
+       'Thermostat AirQualityAccuracy', 'Thermostat AirQuality',
+       'Thermostat VOCppm', 'Thermostat CO2ppm', 'Thermostat AirPressure',
+       'Gym (C)', 'Gym2', 'tempOffice (C)', 'tempOffice2', 'tempLoft (C)',
+       'tempLoft2', 'tempMainBedroom (C)', 'tempMainBedroom2',
+       'tempLivingRoom (C)', 'tempLivingRoom2', 'Back window (contact)',
+       'Main Bedroom window (contact)', 'Living Room window (contact)',
+       'Office window (contact)', 'Small Bedroom window (contact)'
+
 
 
 
