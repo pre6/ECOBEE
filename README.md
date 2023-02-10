@@ -72,7 +72,8 @@ My thermostat cost $330. This will be compared to a standard government issued t
 There is 17 hours in which the furance is turned on. Therefore the amount per day for gas actually pertains to 17 hours in which the furnace is on. Now we need to find out how much it would cost for the whole day:
 
 $$ \frac{$3.54}{17hrs} = \frac{x}{24hrs} $$
-$$ x \\approx $5.00$$
+
+$$ x \\approx 5.00$$
 
 ## 4. When will I have to adjust the temperature to save 10%?
 
