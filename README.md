@@ -37,13 +37,22 @@ This table represents the information in the gas bill.
 |2022-11-02	|2022-12-02	|164.99	|27.9027	|224|
 
 
-- The average spent on gas between these 4 ranges is $3.45/day. 
+- The average spent on gas between these 4 ranges is $3.45/day. This was done by taking the total amount in a range and dividing by the number of days in range. Then we averaged the three value for the three ranges
 
 $$ \frac{Total}{days}  $$
 
+- To roughly find the amount the furnace cost per day, a baseline amount was estimated. The baseline is taken from the first range in which the furnace was not used once. This was on average $1.54 / day.
+- Next we subract this baseline from the average cost per day for all the other ranges
+- Then we multiply the value by the number of days the furance was on. This is the average amount per day the furnace costs!
+- We can furthur divide by the number of time the furnace was on in the corresponding range to get a rough idea bout how much the furnace cost each time it turns on.
 
 
-- Here is a graph of the price and number of times the furnace is on
+|Start_Range| End_Range| Amount|Number of times the Furnace was on| Number of days the furnace was on| Average amount per day| Average amount without the baseline|Amount Furnace costs every 5 mins|
+|--- |--- |--- |--- |--- |--- |--- |--- |--- | ---|
+|2022-06-23|	2022-09-01|	109.33|	0|	0|	71|	1.141|	1.53985915492958|	-0.0| NULL|
+|2022-09-02|	2022-10-05|	59.51	57|	7|	34|	1.676|	1.75029411764706|	0.21043496271748|	0.04332484526536|
+|2022-10-06|	2022-11-01|	105.43|	546|	23|	27|	4.741|	3.90481481481482|	2.36495565988524|	0.09962267431751|
+|2022-11-02|	2022-12-02|	164.99|	1355|	30|	31|	7.226|	5.32225806451613|	3.78239890958655|	0.08374314928974|
 
 
 ## 3. When will I break even with my thermostat??
