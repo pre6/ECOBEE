@@ -119,6 +119,19 @@ somethinesomethingsoemthing
 
 
 ## Queries:
+1. Visualization code
+- Look in Jupyter notebook
+```python
+Average_temp = df.groupby('Date', as_index=False, sort=False)['Current Temp (C)'].mean()
+Average_humidity = df.groupby('Date', as_index=False, sort=False)['Current Humidity (%RH)'].mean()
+
+# Combine both tables:
+
+result = pd.concat([Average_temp, Average_humidity["Current Humidity (%RH)"]], axis=1, join="inner")
+```
+
+
+2. How much does the furnace cost per day:
 ```sql
 
 SELECT 
@@ -211,6 +224,4 @@ ON Enridge_Bill.Start_Range = subq1.Start_Range
 
 
 ```
-2. How much does the furnace cost per day:
-
 
