@@ -39,7 +39,7 @@ This table represents the information in the gas bill.
 
 - The average spent on gas between these 4 ranges is $3.45/day. 
 
-$$ Amount / number of days in range    $$
+$$ \frac{Total}{days}  $$
 
 
 
