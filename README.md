@@ -108,6 +108,7 @@ $$ 3.54 * 0.1 = 0.354 $$
 $$ 3.54 - 0.354 \\approx 3.19 $$
 
 $$ \frac{3.54}{17} = \frac{3.19}{x} $$
+
 $$ x \\approx 15 $$
 
 If we have a 15 hr period where it is 22 degrees celcius we should save 10%
