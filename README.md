@@ -55,6 +55,10 @@ $$ \frac{Total}{days}  $$
 |2022-11-02|	2022-12-02|	164.99|	1355|	30|	31|	5.32225806451613|	3.78239890958655|	0.08374314928974|
 
 
+### Assumptions:
+- The other appliance and things that use gas are not accounted for. 
+- The number of degrees outside affects the amound of times the furnace turns on.
+
 ## 3. When will I break even with my thermostat?
 
 My thermostat cost $330. This will be compared to a standard government issued thermostat which holds 22 degrees celcius. The cycle the thermostat was on is:
@@ -65,14 +69,10 @@ My thermostat cost $330. This will be compared to a standard government issued t
 |05:30:00|22:30:00|Home|22|
 |22:30:00|23:59:59|Home|22|
 
+There is 17 hours in which the furance is turned on. Therefore the amount per day for gas actually pertains to 17 hours in which the furnace is on. Now we need to find out how much it would cost for the whole day:
+
 $$ \frac{$3.54}{17hrs} = \frac{x}{24hrs} $$
+$$ x \\approx $5.00$$
 
-math math
-table 
-table
-## 4. When will I have to adjust the temperature to save 10%???
+## 4. When will I have to adjust the temperature to save 10%?
 
-
-math math 
-table 
-table
