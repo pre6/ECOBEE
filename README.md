@@ -25,8 +25,9 @@ Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode |
 
 ## 2. How much does the furnace cost per day
 
-- In the days the furnace runs how much does it cost?
+In the days the furnace runs how much does it cost? Roughly how much does the furnace cost when it turns one once?
 
+This table represents the information in the gas bill.
 
 |Start_Range| End_Range| Amount| Natural_Gas_Supply_Rate (cents/m^3)| M^3 of Gas used|
 |--- |--- |--- |--- |--- |
@@ -37,7 +38,11 @@ Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode |
 
 
 - The average spent on gas between these 4 ranges is $3.45/day. 
-- Table of vales (queries found here)
+
+$$ Amount / number of days in range    $$
+
+
+
 - Here is a graph of the price and number of times the furnace is on
 
 
