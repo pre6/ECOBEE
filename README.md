@@ -3,16 +3,16 @@
 
 ## 1. Visualizing the Data:
 
-The dataset used is from the house thermostat we got in June 29 2022. The data recorded various parameters ever 5 minutes till Dec 18th. These are the first 5 row of the data. 
+The dataset used is from the house thermostat we got in June 29 2022. The data recorded various parameters ever 5 minutes till Dec 18th. These are the first 5 row of the data. 									
 
 
 Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode | Cool Set Temp (C) |	Heat Set Temp (C) |Current Temp (C) |Current Humidity (%RH)
 |--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |
-|	2022-06-29 |	23:35:00 |	cool |	heatOff |	NaN |	Sleep| 28.0 |	18.5 |	25.2 |	58.0 
-|	2022-06-29 |	23:40:00 |	cool |	heatOff |	NaN |	Sleep| 28.0 |	18.5 |	25.2 |	59.0
-|	2022-06-29 |	23:45:00 |	cool |	heatOff |	NaN |	Sleep| 28.0 |	18.5 |	25.2 |	58.0 
-|	2022-06-29 |	23:50:00 |	cool |	heatOff |	NaN |	Sleep| 28.0 |	18.5 |	25.2 |	57.0 
-|	2022-06-29 |	23:55:00 |	cool |	heatOff |	NaN |	Sleep| 28.0 |	18.5 |	25.1 |	57.0
+|	2022-06-29 |	18:05:00 |	off |	heatOff |	NaN |	Home| 25.5 |	20.5 |	25 |	59
+|	2022-06-29 |	18:10:00 |	off |	heatOff |	NaN |	Home| 25.5 |	20.5 |	25 |	60
+|	2022-06-29 |	18:15:00 |	off |	heatOff |	NaN |	Home| 25.5 |	20.5 |	25.1 |	59
+|	2022-06-29 |	18:20:00 |	off |	heatOff |	NaN |	Home| 25.5 |	20.5 |	25.1 |	60
+|	2022-06-29 |	18:25:00 |	off |	heatOff |	NaN |	Home| 25.5 |	20.5 |	25.1 |	60
 
 288 rows × 39 columns
 
