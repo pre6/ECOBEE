@@ -47,7 +47,7 @@ $$ \frac{Total}{days}  $$
 - We can furthur divide by the number of time the furnace was on in the corresponding range to get a rough idea bout how much the furnace cost each time it turns on.
 
 
-|Start_Range| End_Range| Amount|Times furnace On| Number of days the furnace was on| Total days in range| Average amount per day| Average amount without the baseline|Amount Furnace costs every 5 mins|
+|Start_Range| End_Range| Amount|Times furnace On| Days furnace was on| Total days|amount per day|amount without the baseline|Amount Furnace costs every 5 mins|
 |---       |---         |---    |---  |---|---|---   |---               |---  | ---          |
 |2022-06-23|	2022-09-01|	109.33|	   0|	 0|	71|	1.141|	1.53985915492958|	-0.0|          NULL|
 |2022-09-02|	2022-10-05|	59.51	|   57|	 7|	34|	1.676|	1.75029411764706|	0.21043496271748|	0.04332484526536|
