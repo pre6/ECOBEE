@@ -3,7 +3,7 @@
 
 ## 1. Visualizing the Data:
 
-The dataset used is from the house thermostat we got in June 29 2022. The data recorded various parameters ever 5 minutes till Dec 18th. These are the first 5 row of the data. 									
+The dataset used is from the house thermostat we got in June 29 2022. The data recorded various parameters every 5 minutes till Dec 18th. These are the first 5 row and 10 columns of the data.						
 
 
 Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode | Cool Set Temp (C) |	Heat Set Temp (C) |Current Temp (C) |Current Humidity (%RH)
@@ -23,7 +23,7 @@ Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode |
 ![image](https://user-images.githubusercontent.com/47339289/218004722-7e02fd14-52b3-4e14-9a14-e078b390c45c.png)
 
 
-## 2. How much does the furnace cost per day
+## 2. How much does the furnace cost per day?
 
 In the days the furnace runs how much does it cost? Roughly how much does the furnace cost when it turns one once?
 
@@ -43,8 +43,18 @@ $$ \frac{Total}{days}  $$
 
 - To roughly find the amount the furnace cost per day, a baseline amount was estimated. The baseline is taken from the first range in which the furnace was not used once. This was on average $1.54 / day.
 - Next we subract this baseline from the average cost per day for all the other ranges
+
+Example: With the range from Oct 06 to Nov 11
+
+$$ 3.90 - 1.54 \\approx 2.36 $$
+
 - Then we multiply the value by the number of days the furance was on. This is the average amount per day the furnace costs!
+
+$$ 2.36* 23 \\approx 128.56 $$
+
 - We can furthur divide by the number of time the furnace was on in the corresponding range to get a rough idea bout how much the furnace cost each time it turns on.
+
+$$128.56/546 \\approx 0.099413$$
 
 
 |Start_Range| End_Range| Amount|Times furnace On| Days furnace was on| Total days|amount per day|amount without the baseline|Amount Furnace costs every 5 mins|
