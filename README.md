@@ -18,12 +18,9 @@ Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode |
 
 
 
-- This is a graph of the average temperature per day for the whole year:
+- This is a graph of the average temperature per day in the range:
 
-![image](https://user-images.githubusercontent.com/47339289/218004594-9ddaf94d-7c53-4d22-96f4-a7ba0a3ad0fe.png)
-
-
-- There are no breaks in the data from June 29th 2022 to December 18 2022 therefore we will only be focusing on this range of data
+![image](https://user-images.githubusercontent.com/47339289/218004722-7e02fd14-52b3-4e14-9a14-e078b390c45c.png)
 
 
 ## 2. How much does the furnace cost per day
