@@ -75,5 +75,40 @@ $$ \frac{$3.54}{17hrs} = \frac{x}{24hrs} $$
 
 $$ x \\approx 5.00$$
 
+It is around $5.00 per day if the temperature was kept at 22 degrees celcius each day. The furance (from the ranges before) turns on at September 29th to Dec 18th. This is 81 days. If the furnace was set at 22 degrees the whole time, the amount would be:
+
+$$ 5.00 * 81 = 405 $$
+$$ 3.45 * 81 = 286.47 $$
+
+$$405-286.47 = 118.26$$
+
+We saved about 118.26
+
+I esitmate in Canada we will have the furnace on for 8 months, which is 241 days
+
+$$ 5.00 * 241 = 1205 $$
+$$ 3.45 * 241 = 853.14 $$
+$$ 1205 - 853.14 = 351.86$$
+
+In 8 months you can break even with the thermostat.
+
+### Assumptions:
+
+We assume the the furnace would be running everyday.
+Some days the furnace will run loger because it is colder
+The cycle we set wasnt perfect. These were the average values
+
+
 ## 4. When will I have to adjust the temperature to save 10%?
+
+Per day it is $3.54. If we saved 10% of that it would be:
+
+$$ 3.54 * 0.1 = 0.354 $$
+$$ 3.54 - 0.354 \\approx 3.19 $$
+$$ \frac{3.54}{17} = \frac{3.19}{x}$$
+$$ x \\approx 15$$
+If we have a 15 hr period where it is 22 degrees celcius we should save 10%
+
+### Assumptions:
+
 
