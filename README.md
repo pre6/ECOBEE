@@ -57,7 +57,13 @@ $$ \frac{Total}{days}  $$
 
 ## 3. When will I break even with my thermostat?
 
-My thermostat cost $330. This will be compared to a standard government issued thermostat which holds 22 degrees celcius. 
+My thermostat cost $330. This will be compared to a standard government issued thermostat which holds 22 degrees celcius. The cycle the thermostat was on is:
+
+|Start Time|End Time| Mode| Temperature|
+|--- |--- |--- |--- |
+|00:00:00|05:30:00|Sleep|19.5|
+|05:30:00|22:30:00|Home|22|
+|22:30:00|23:59:59|Home|22|
 
 $$ \frac{$3.54}{17hrs} = \frac{x}{24hrs} $$
 
