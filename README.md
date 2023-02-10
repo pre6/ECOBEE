@@ -1,23 +1,20 @@
-# How Much Does the Furnace Impact the Gas Bill
-test test etst
-
+# How Much Does the Furnace Impact the Gas Bill?
 
 
 ## 1. Visualizing the Data:
 
-- We will visulize the data we have currently.
-- This is from the Ecobee Thermostat from January 1st to December 30th
-- Here is the first 5 rows of the data
+The dataset used is from the house thermostat we got in June 29 2022. The data recorded various parameters ever 5 minutes till Dec 18th. These are the first 5 row of the data. 
+
 
 Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode | Cool Set Temp (C) |	Heat Set Temp (C) |Current Temp (C) |Current Humidity (%RH)
 |--- | --- | --- | --- |--- |--- |--- |--- |--- |--- |
-|	2022-01-01 |	00:00:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.8 |	39.0 
-|	2022-01-01 |	00:05:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.7 |	39.0
-|	2022-01-01 |	00:10:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.6 |	39.0 
-|	2022-01-01 |	00:15:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.5 |	39.0 
-|	2022-01-01 |	00:20:00 |	heat |	heatOff |	NaN |	Sleep| 26.5 |	19.5 |	24.5 |	39.0 
+|	2022-06-29 |	23:35:00 |	cool |	heatOff |	NaN |	Sleep| 28.0 |	18.5 |	25.2 |	58.0 
+|	2022-06-29 |	23:40:00 |	cool |	heatOff |	NaN |	Sleep| 28.0 |	18.5 |	25.2 |	59.0
+|	2022-06-29 |	23:45:00 |	cool |	heatOff |	NaN |	Sleep| 28.0 |	18.5 |	25.2 |	58.0 
+|	2022-06-29 |	23:50:00 |	cool |	heatOff |	NaN |	Sleep| 28.0 |	18.5 |	25.2 |	57.0 
+|	2022-06-29 |	23:55:00 |	cool |	heatOff |	NaN |	Sleep| 28.0 |	18.5 |	25.1 |	57.0
 
-5 rows × 10 columns
+288 rows × 39 columns
 
 
 
