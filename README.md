@@ -55,7 +55,12 @@ $$ \frac{Total}{days}  $$
 |2022-11-02|	2022-12-02|	164.99|	1355|	30|	31|	5.32225806451613|	3.78239890958655|	0.08374314928974|
 
 
-## 3. When will I break even with my thermostat??
+## 3. When will I break even with my thermostat?
+
+My thermostat cost $330. This will be compared to a standard government issued thermostat which holds 22 degrees celcius. 
+
+$$ \frac{$3.54}{17hrs} = \frac{x}{24hrs} $$
+
 math math
 table 
 table
