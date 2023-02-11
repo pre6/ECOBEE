@@ -125,7 +125,7 @@ If we have a 15 hr period where the furnace is on and the other 9 hours the furn
 
 ### Assumptions:
 
-somethinesomethingsoemthing
+These assumptions will be simillar to the other assumptions. We are assuming the gas bill is just from the furnace. Also we assume that the furnace will turn on the same amount per day despite the temperature outside
 
 
 ## Queries:
