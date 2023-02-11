@@ -67,7 +67,7 @@ $$128.56/546 \\approx 0.099413$$
 
 ### Assumptions:
 - The other appliance and things that use gas are not accounted for. 
-- The number of degrees outside affects the amound of times the furnace turns on.
+- The number of degrees outside affects the amount of times the furnace turns on.
 
 ## 3. When will I break even with my thermostat?
 
