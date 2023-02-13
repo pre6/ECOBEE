@@ -18,7 +18,7 @@ Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode |
 
 
 
-- This is a graph of the average temperature per day in the range:
+- This is a graph of the average temperature per day in the range (python code at the bottom):
 
 ![image](https://user-images.githubusercontent.com/47339289/218004722-7e02fd14-52b3-4e14-9a14-e078b390c45c.png)
 
