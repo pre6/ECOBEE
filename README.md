@@ -293,7 +293,7 @@ Python:
 
 df = pd.read_csv("avg_and_num.csv",header=None)
 
-Graph = df.hvplot(x = '0', y = '1')
+Graph = df.hvplot(x = '0', y = '1').opts(xlabel='Date', ylabel='Num Furnace turns on or Temp')*hv.HLine(11).opts(color='green')
 Graph_1 = df.hvplot(x = '0', y = '2')
 
 Graph*Graph_1
