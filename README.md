@@ -136,7 +136,10 @@ There seems to be a correaltion between the number of times the furance runs in 
 ![image](https://user-images.githubusercontent.com/47339289/218379742-54d650a3-9b7c-47e7-9e6b-3099828a8f69.png)
 
 The red line is the Number of times the furnace turns on a particular day
-The blue line is the average temperature outside that particular day
+
+The blue line is the average temperature outside that particular day. 
+
+The green line is the 11 degree line
 
 
 
