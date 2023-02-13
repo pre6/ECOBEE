@@ -67,7 +67,7 @@ $$128.56/546 \\approx 0.099413$$
 
 ### Assumptions:
 - The other appliance and things that use gas are not accounted for. For example it is possible that in the winter we use the water hearter more.
-- The number of degrees outside affects the amount of times the furnace turns on.
+- The number of degrees outside affects the amount of times the furnace turns on. During these low temperature days it is possible that there is more gas used to heat the house.
 
 ## 3. When will I break even with my thermostat?
 
@@ -125,7 +125,18 @@ If we have a 15 hr period where the furnace is on and the other 9 hours the furn
 
 ### Assumptions:
 
-These assumptions will be simillar to the other assumptions. We are assuming the gas bill is just from the furnace. Also we assume that the furnace will turn on the same amount per day despite the temperature outside
+These assumptions will be simillar to the other assumptions. We are assuming the gas bill is just from the furnace. Also we assume that the furnace will turn on the same amount per day and use the same amount of gas despite the temperature outside.
+
+
+## 5. Extra: Is there a correlation between the temperature outside and Furnace use?
+
+There seems to be a correatio between the number of times the furance runs in a day and the average temperature outside that day.:
+
+![image](https://user-images.githubusercontent.com/47339289/218378460-4a337dd6-6685-493a-b326-40ecb21f98f8.png)
+The red line is the Number of times the furnace turns on a particular day
+The blue line is the average temperature outside that particular day
+
+
 
 
 ## Queries:
@@ -238,10 +249,48 @@ WHERE Date BETWEEN '2022-11-02' AND '2022-12-02'
 ) AS subq1
 
 ON Enridge_Bill.Start_Range = subq1.Start_Range
-
-
-
-
-
 ```
 
+
+
+5. Extra: Is there a correlation between the temperature outside and Furnace use?
+
+SQL:
+
+``` sql
+
+SELECT sub.Date,sub.Average,b.count
+
+FROM (
+SELECT DATE, AVG([Outdoor Temp (C)]) AS Average
+FROM Thermostat
+GROUP BY DATE
+) sub
+
+
+
+LEFT JOIN (
+SELECT Thermostat.Date, COUNT(Thermostat.[System Mode]) AS count
+FROM Thermostat
+WHERE [System Mode] = 'heatStage1On'
+GROUP BY Date
+) AS b
+
+ON sub.Date = b.Date
+
+WHERE sub.Date BETWEEN '2022-06-23' AND '2022-12-02'
+```
+
+Python:
+
+
+``` python
+
+df = pd.read_csv("avg_and_num.csv",header=None)
+
+Graph = df.hvplot(x = '0', y = '1')
+Graph_1 = df.hvplot(x = '0', y = '2')
+
+Graph*Graph_1
+
+```
