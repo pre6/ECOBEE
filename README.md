@@ -129,15 +129,25 @@ These assumptions will be simillar to the other assumptions. We are assuming the
 
 
 ## Queries:
+
+
 1. Visualization code
 - Look in Jupyter notebook
 ```python
+
+import pandas as pd
+import holoviews as hv
+
+df = pd.read_csv("Year.csv",header=0, index_col=False)
+df['Date'] = pd.to_datetime(df['Date']).apply(lambda x: x.date())
 Average_temp = df.groupby('Date', as_index=False, sort=False)['Current Temp (C)'].mean()
 Average_humidity = df.groupby('Date', as_index=False, sort=False)['Current Humidity (%RH)'].mean()
 
-# Combine both tables:
-
 result = pd.concat([Average_temp, Average_humidity["Current Humidity (%RH)"]], axis=1, join="inner")
+
+
+Temp = result.hvplot(x = 'Date', y = 'Current Temp (C)')
+Temp.opts(title='Temperature Data from June 29th to Dec 18th')
 ```
 
 
