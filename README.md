@@ -68,6 +68,7 @@ $$128.56/546 \\approx 0.099413$$
 ### Assumptions:
 - The other appliance and things that use gas are not accounted for. For example it is possible that in the winter we use the water hearter more.
 - The number of degrees outside affects the amount of times the furnace turns on. During these low temperature days it is possible that there is more gas used to heat the house.
+- The thermostat only records data every five minutes. So when the furnace is recorded two times in a row it could possibily mean that the furnace was on during the whole duration or it could have stopped inbetween. In my analysis I consider one record of the furnace "turns on" as the number of times the thermostat recorded the furnace on. Therefore, the times the furnace turns on not in a 5 minute interval could possibily not be recored or the times where the furnace was recorded but only on for a short amount of time could be recorded as a comparable to a full 5 minute on. These are some limitations in my analysis.
 
 ## 3. When will I break even with my thermostat?
 
@@ -130,9 +131,10 @@ These assumptions will be simillar to the other assumptions. We are assuming the
 
 ## 5. Extra: Is there a correlation between the temperature outside and Furnace use?
 
-There seems to be a correatio between the number of times the furance runs in a day and the average temperature outside that day.:
+There seems to be a correaltion between the number of times the furance runs in a day and the average temperature outside that day. When the temperature is 11 degrees or less the furnace turns on. As the temperature nears 0 or goes into the negatives, the number of times the furnace turns on increases.
 
-![image](https://user-images.githubusercontent.com/47339289/218378460-4a337dd6-6685-493a-b326-40ecb21f98f8.png)
+![image](https://user-images.githubusercontent.com/47339289/218379742-54d650a3-9b7c-47e7-9e6b-3099828a8f69.png)
+
 The red line is the Number of times the furnace turns on a particular day
 The blue line is the average temperature outside that particular day
 
