@@ -1,5 +1,7 @@
 # How Much Does the Furnace Impact the Gas Bill?
 
+In an attempt to understand how much I impact the gas bill by increasing the temperature, I have analyzed data from my HVAC system and my furnace bill. 
+
 
 ## 1. Visualizing the Data:
 
