@@ -1,6 +1,10 @@
 # How Much Does the Furnace Impact the Gas Bill?
 
-In an attempt to understand how much I impact the gas bill by increasing the temperature, I have analyzed data from my HVAC system and my gas bill. I took data from the ecobee thermostat from June 29th to December 18th. I correlated this data with the gas bill from times within this period. 
+In an attempt to understand how much I impact the gas bill by increasing the temperature, I have analyzed data from my HVAC system and my gas bill. I took data from the ecobee thermostat from June 29th to December 18th. I correlated this data with the gas bill from times within this period. Some questions I asked to understand how much the furnace impacted the gas bill was:
+
+1. How much does the furnace cost per day on average?
+2. When will I break even with my thermostat?
+3. When will I have to adjust the temperature to save 10%?
 
 
 ## 1. Visualizing the Data:
@@ -43,14 +47,14 @@ This table represents the information in the gas bill.
 
 $$ \frac{Total}{days}  $$
 
-- To roughly find the amount the furnace cost per day, a baseline amount was estimated. The baseline is taken from the first range in which the furnace was not used once. This was on average $1.54 / day.
-- Next we subract this baseline from the average cost per day for all the other ranges
+- To roughly find the amount the furnace cost per day, a baseline amount was estimated. The baseline is taken from the first range in which the furnace was not used once. This was on average $1.54 / day. 
+- Next we subract this baseline from the average cost per day for all the other ranges. This is the average amount per day the furnace costs!
 
 Example: With the range from Oct 06 to Nov 11
 
 $$ 3.90 - 1.54 \\approx 2.36 $$
 
-- Then we multiply the value by the number of days the furance was on. This is the average amount per day the furnace costs!
+- We can then multiply the value by the number of days the furance was on. 
 
 $$ 2.36* 23 \\approx 128.56 $$
 
