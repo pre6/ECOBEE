@@ -1,6 +1,6 @@
 # How Much Does the Furnace Impact the Gas Bill?
 
-In an attempt to understand how much I impact the gas bill by increasing the temperature, I have analyzed data from my HVAC system and my gas bill. I took data from the ecobee thermostat from June 29th to December 18th. I correlated this data with the gas bill from times within this period. Some questions I asked to understand how much the furnace impacted the gas bill was:
+In an attempt to understand how much increasing the temperature impacts the gas bill, I have analyzed data from my HVAC system and my gas bill. I took data from the ecobee thermostat from June 29th to December 18th. I correlated this data with the gas bill from within this period. Some questions I asked were:
 
 1. How much does the furnace cost per day on average?
 2. When will I break even with my thermostat?
