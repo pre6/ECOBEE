@@ -1,15 +1,15 @@
 # How Much Does the Furnace Impact the Gas Bill?
 
-In an attempt to understand how much increasing the temperature impacts the gas bill, I have analyzed data from my HVAC system and my gas bill. I took data from the ecobee thermostat from June 29th to December 18th. I correlated this data with the gas bill from within this period. Some questions I asked were:
+In an attempt to understand the impact of indoor temperature on the gas bill, I analyzed data from my HVAC system and my gas bill. I took data from the ecobee thermostat from June 29 to December 18, 2022. I correlated this data with the gas bill from this period. Some questions I asked were:
 
-1. How much does the furnace cost per day on average?
-2. When will I break even with my thermostat?
-3. When will I have to adjust the temperature to save 10%?
+1. What is the average cost on the furnace per day during heating season?
+2. When will I save enough money with the smart thermostat to offset the cost of the thermostat?
+3. What adjustments do I have to make to my thermal comfort to save 10% on my gas bill?
 
 
 ## 1. Visualizing the Data:
 
-The dataset used is from the house thermostat we got in June 29 2022. The data recorded various parameters every 5 minutes till Dec 18th. These are the first 5 row and 10 columns of the data.						
+The dataset used is from the ecobee thermostat which was recorded from June 29, 2022 to December 18, 2022. The thermostat recorded various metrics every 5 minutes. These are the first 5 row and 10 columns of the data.						
 
 
 Date |	Time |	System Setting |    System Mode 	| Calendar Event |	Program Mode | Cool Set Temp (C) |	Heat Set Temp (C) |Current Temp (C) |Current Humidity (%RH)
